@@ -1,6 +1,6 @@
 ﻿namespace Tutorial3;
 
-public interface IHazardNotifier
+public interface IHazardNotifier<T>
 {
-    void Send(string? message, SerialNumber serial);
+    void Send(string? message, SerialNumber<T> serial);
 }

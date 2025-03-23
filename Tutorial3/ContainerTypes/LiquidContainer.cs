@@ -1,31 +1,48 @@
 ﻿namespace Tutorial3;
 
-public class LiquidContainer : Container, IHazardNotifier
+public class LiquidContainer(double containerMass, double maxMass, double height, double depth) : Container<LiquidCargo>(containerMass, maxMass, height, depth), IHazardNotifier<LiquidCargo>
 {
-    public bool IsHazrdous { get; set; }
     
-    public void Send(string? message, SerialNumber serial)
+    public void Send(string? message, SerialNumber<LiquidCargo> serial)
     {
-        throw new NotImplementedException();
+        Console.WriteLine($"{message} on {serial}");
     }
 
-    public override void Empty()
+
+
+    public override void Load(LiquidCargo cargo, double mass)
     {
-        throw new NotImplementedException();
+        var isHazardous = cargo switch
+        {
+            LiquidCargo.Milk => false,
+            LiquidCargo.Fuel => true,
+        };
+        
+        
+        try
+        {
+            if (isHazardous && Mass + mass > MaxMass * 0.5)
+            {
+                throw new Exception();
+            }
+
+            if (Mass + mass > MaxMass * 0.9)
+            {
+                throw new Exception();
+            }
+        }
+        catch (Exception e)
+        {
+            Send("Hazardous operation", Serial);
+        }
+
+
+        base.Load(cargo, mass);
     }
 
-    public override void Load(Cargo cargo, double mass)
+    public override string ToString()
     {
-        if (IsHazrdous && mass > MaxMass * 0.95)
-        {
-            throw new Exception();
-        }
+        return $"L {base.ToString()}";
 
-        if (mass > MaxMass * 0.90)
-        {
-            throw new Exception();
-        }
-        
-        
     }
 }

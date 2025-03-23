@@ -2,5 +2,6 @@
 
 public class OverfillException : Exception
 {
-    
+    public OverfillException() : base("Overflow") { 
+    }
 }

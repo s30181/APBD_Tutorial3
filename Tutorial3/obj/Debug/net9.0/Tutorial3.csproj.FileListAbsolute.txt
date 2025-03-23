@@ -1,0 +1,15 @@
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/bin/Debug/net9.0/Tutorial3
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/bin/Debug/net9.0/Tutorial3.deps.json
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/bin/Debug/net9.0/Tutorial3.runtimeconfig.json
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/bin/Debug/net9.0/Tutorial3.dll
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/bin/Debug/net9.0/Tutorial3.pdb
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.GeneratedMSBuildEditorConfig.editorconfig
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.AssemblyInfoInputs.cache
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.AssemblyInfo.cs
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.csproj.CoreCompileInputs.cache
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.sourcelink.json
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.dll
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/refint/Tutorial3.dll
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.pdb
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/Tutorial3.genruntimeconfig.cache
+/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net9.0/ref/Tutorial3.dll

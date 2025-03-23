@@ -1,3 +1,17 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Tutorial3;
+using IContainer = Tutorial3.IContainer;
 
-Console.WriteLine("Hello, World!");
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        var cli = new CLI();
+        cli.start();
+    }
+}
+
+
+
+
+
+
