@@ -1,5 +1,0 @@
-/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net7.0/Tutorial3.GeneratedMSBuildEditorConfig.editorconfig
-/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net7.0/Tutorial3.AssemblyInfoInputs.cache
-/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net7.0/Tutorial3.AssemblyInfo.cs
-/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net7.0/Tutorial3.csproj.CoreCompileInputs.cache
-/home/elias/PJATK/Semester4/Tutorial3/Tutorial3/obj/Debug/net7.0/Tutorial3.sourcelink.json
